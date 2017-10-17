@@ -23,7 +23,13 @@ def start_here():
     <html>
       <body>
         <h1>Hi! This is the home page.</h1>
-        <a href="/hello">Go here to say hello</a>
+        <form action="/hello">
+          Do you want a compliment or an insult?
+          <input type="radio" name="opt" value="compliment">compliment
+          <input type="radio" name="opt" value="insult">insult
+          <input type="submit" value="GO">
+        </form>
+
       </body>
     </html>"""
 
